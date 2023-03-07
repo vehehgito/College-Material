@@ -1,4 +1,4 @@
-### Experiment 1: Java programs using classes & objects and various control constructs such as loops etc, and data structures such as arrays, structures and functions
+### Program 1: Java programs using classes & objects and various control constructs such as loops etc, and data structures such as arrays, structures and functions
 
 ```java
 // Define a class called Student
@@ -41,7 +41,7 @@ public class Main {
 }
 ```
 
-### Experiment 2: Java programs for creating AWT applications for display of images and texts.
+### Program 2: Java programs for creating AWT applications for display of images and texts.
 
 ```java
 //Java program for creating AWT applications for display of images and texts.
@@ -76,4 +76,32 @@ public class DisplayImage {
 }
 ```
 
-### Experiment 3: 
+### Program 3: Java programs related to Interfaces & Packages.
+```java
+
+```
+
+### Program 4: Input/output and random files programs in Java.
+```java
+
+```
+
+### Program 5: Java programs using Event driven concepts.
+```java
+
+```
+
+### Program 6: Java programs related to Graphical User Interface
+```java
+
+```
+
+### Program 7: Java Programs Related to multithreading
+```java
+
+```
+
+### Program 8: Creating a pom.xml and core java application using Mavon.
+```java
+
+```
