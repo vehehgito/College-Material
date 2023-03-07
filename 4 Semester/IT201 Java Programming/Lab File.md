@@ -44,48 +44,34 @@ public class Main {
 ### Experiment 2: Java programs for creating AWT applications for display of images and texts.
 
 ```java
+//Java program for creating AWT applications for display of images and texts.
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import javax.imageio.ImageIO;
 
-public class AWTImageTextDemo extends Frame {
-    private BufferedImage image;
+public class DisplayImage {
+    public static void main(String[] args) throws IOException {
 
-    public AWTImageTextDemo() {
-        super("AWT Image and Text Demo");
+        File file = new File("/home/vehehgito/Learning/College-Material/4 Semester/IT201 Java Programming/02/assets/DMRC map.jpg");
+        BufferedImage bufferedImage = ImageIO.read(file);
 
-        // Load the image
-        try {
-            image = ImageIO.read(new File("image.jpg"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        ImageIcon imageIcon = new ImageIcon(bufferedImage);
+        JFrame jFrame = new JFrame();
 
-        // Create a panel for displaying the image and text
-        Panel panel = new Panel(new BorderLayout());
+        jFrame.setLayout(new FlowLayout());
+        
+        jFrame.setSize(500, 500);
+        JLabel jLabel = new JLabel();
 
-        // Create a label for displaying the image
-        Label imageLabel = new Label(new ImageIcon(image));
-        panel.add(imageLabel, BorderLayout.CENTER);
+        jLabel.setIcon(imageIcon);
+        jFrame.add(jLabel);
+        jFrame.setVisible(true);
 
-        // Create a label for displaying the text
-        Label textLabel = new Label("Hello, World!");
-        textLabel.setFont(new Font("Arial", Font.BOLD, 24));
-        textLabel.setAlignment(Label.CENTER);
-        panel.add(textLabel, BorderLayout.SOUTH);
-
-        // Add the panel to the frame
-        add(panel);
-
-        // Set the frame properties
-        setSize(400, 400);
-        setVisible(true);
-    }
-
-    public static void main(String[] args) {
-        new AWTImageTextDemo();
+        jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
 ```
