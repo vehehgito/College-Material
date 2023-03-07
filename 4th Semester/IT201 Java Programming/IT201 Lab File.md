@@ -1,4 +1,18 @@
-### Program 1: Java programs using classes & objects and various control constructs such as loops etc, and data structures such as arrays, structures and functions
+# ES204 Basic Simulation Lab file
+
+## Index
+|S. No. | Topic | Date |
+|---|---|---|
+|1. | Java programs using classes & objects and various control constructs such as loops etc, and data structures such as arrays, structures and functions. | 01/01/23 |
+|2. | Java programs for creating AWT applications for display of images and texts. | 01/01/23 |
+|3. | Java programs related to Interfaces & Packages. | 01/01/23 |
+|4. | Input/output and random files programs in Java. | 01/01/23 |
+|5. | Java programs using Event driven concepts. | 01/01/23 |
+|6. | Java programs related to Graphical User Interface | 01/01/23 |
+|7. | Java Programs related to multithreading | 01/01/23 |
+|8. | Creating a pom.xml and core java application using Maven. | 01/01/23 |
+
+##### Program 1: Java programs using classes & objects and various control constructs such as loops etc, and data structures such as arrays, structures and functions
 
 ```java
 // Define a class called Student
@@ -41,7 +55,7 @@ public class Main {
 }
 ```
 
-### Program 2: Java programs for creating AWT applications for display of images and texts.
+##### Program 2: Java programs for creating AWT applications for display of images and texts.
 
 ```java
 //Java program for creating AWT applications for display of images and texts.
@@ -76,32 +90,32 @@ public class DisplayImage {
 }
 ```
 
-### Program 3: Java programs related to Interfaces & Packages.
+##### Program 3: Java programs related to Interfaces & Packages.
 ```java
 
 ```
 
-### Program 4: Input/output and random files programs in Java.
+##### Program 4: Input/output and random files programs in Java.
 ```java
 
 ```
 
-### Program 5: Java programs using Event driven concepts.
+##### Program 5: Java programs using Event driven concepts.
 ```java
 
 ```
 
-### Program 6: Java programs related to Graphical User Interface
+##### Program 6: Java programs related to Graphical User Interface
 ```java
 
 ```
 
-### Program 7: Java Programs Related to multithreading
+##### Program 7: Java Programs Related to multithreading
 ```java
 
 ```
 
-### Program 8: Creating a pom.xml and core java application using Mavon.
+##### Program 8: Creating a pom.xml and core java application using Maven.
 ```java
 
 ```
