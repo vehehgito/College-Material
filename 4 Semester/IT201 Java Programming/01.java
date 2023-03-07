@@ -1,6 +1,3 @@
-# Experiment 1: Java programs using classes & objects and various control constructs such as loops etc, and data structures such as arrays, structures and functions
-
-```java
 // Define a class called Student
 class Student {
   // Properties of the Student class
@@ -39,4 +36,3 @@ public class Main {
     }
   }
 }
-```
