@@ -1,4 +1,4 @@
-//Java programs using classes & objects and various control constructs such as loops etc, and data structures such as arrays, structures and functions
+//Java program using classes & objects and various control constructs such as loops etc, and data structures such as arrays, structures and functions
 
 // Define a class called Student
 class Student {
