@@ -14,7 +14,7 @@
 
 ---
 
-## BS207 Self-Reliance and Socialization (Credits: 4)
+## BS207 Self-Reliance and Socialization (Credit Units: 04)
 #### Module 1: Understanding Self for Effectiveness (10%)
 - Understanding of self
 - Components of self - self-concept, self-identity, self-image
@@ -100,7 +100,7 @@
   
 ---
 
-## CSE202 Operating Systems (Credits: 4)
+## CSE202 Operating Systems (Credit Units: 04)
 #### Module 1: Introduction to Operating Systems (15%)
 - Operating system and function 
 - Evolution of operating system: batch, interactive, multiprogramming, time sharing and real time system, multiprocessor system, distributed system 
@@ -217,40 +217,97 @@
     2. Priority based
 
 #### Text & References:
+##### Text Books:
 1.	Milenekovic, “Operating System Concepts”, McGraw Hill
 2.	A. Silberschatz, P.B. Galvin “Operating System Concepts
-3.	Tannenbaum, “Operating system design and implementation”, PHI
-4.	Willam Stalling “ Operating system” Pearson Education
-5.	B. W. Kernighan & R. Pike, “The UNIX Programming Environment” Prentice Hall of India, 2000
-6.	Sumitabha Das “ Your UNIX The ultimate guide” Tata Mcgraw Hill
-7.	Yashwant Kantikar, “Shell Programming”, PBP Publication
+##### Reference Books:
+1.	Tannenbaum, “Operating system design and implementation”, PHI
+2.	Willam Stalling “ Operating system” Pearson Education
+3.	B. W. Kernighan & R. Pike, “The UNIX Programming Environment” Prentice Hall of India, 2000
+4.	Sumitabha Das “ Your UNIX The ultimate guide” Tata Mcgraw Hill
+5.	Yashwant Kantikar, “Shell Programming”, PBP Publication
 
 ---
 
-## CSE204 Theory of Computation (Credits : 4)
+## CSE204 Theory of Computation (Credit Units: 04)
+#### Module 1: Introduction to Languages and Automata (25%)
+- Formal Grammars and Chomsky Hierarchy 
+- Regular Expression Deterministic and Nondeterministic Finite Automata 
+- Regular Expression 
+- Regular Expression to  Finite Automata and vice versa
+- Arden’s Theorem 
+- Two way Finite Automata
+- Finite Automata with output
+- Properties of regular sets
+- Pumping lemma for regular sets
+- My-Hill-Nerode Theorem 
+	
+#### Module 2: Context Free Grammars and Pushdown Automata (25%)
+- CFG: Formal Definition, Derivation and Syntax trees
+- Simplification Forms
+- Ambiguous Grammar
+- Properties of CFL
+- Normal Forms (CNF and GNF)
+- Pushdown Automata: Definitions, Relationship between PDA and context free language
+- Decision Algorithms
+ 	
+#### Module 3: Turing Machine (25%)
+- The Turing Machine Model 
+- Language acceptability of Turing Machine 
+- Design of TM, Variation of TM 
+- Universal TM
+- Church’s Machine 
+- Recursive and recursively enumerable language 
+- Unrestricted grammars 
+- Context Sensitive Language 
+- Linear Bounded Automata (LBA).
+
+
+	
+#### Module 4: Un-decidability (15%)
+- Turing machine halting problem
+- undecidable problems for recursive enumerable language
+- Post correspondence problems (PCP) and Modified Post correspondence problems
+- Undecidable problems for CFL.
+	
+#### Module 5: Computability (10%)
+- Partial and Total Functions 
+- Primitive Recursive functions 
+- Recursive functions
+
+#### Text & References:
+##### Text Reading:
+1.	K.L.P. Mishra and N.Chandrasekaran, “Theory of Computer Science : Automata, Languages and Computation”, PHI.
+
+##### References:
+1.	Introduction to theory of computation by Michael sipser.
+2.	An introduction to formal languages and Automata by Peter Linz, Narosa Publication Papadimitrou, C. and Lewis, C.L., “Elements of the Theory of Computation”, PHI
+3.	Martin J. C., “Introduction to Languages and Theory of Computations”, TMH
+4.	Hopcroft and Ullman, “Introduction to Automata Theory, languages and computation”, Addision Wesley.
+5.	Formal Languages and Automata Theory by C.K Nagpal
 
 ---
 
-## CSE208 Discrete Mathematical Structures (Credits : 4)
+## CSE208 Discrete Mathematical Structures (Credit Units: 03)
 
 ---
 
-## ES204 Basic Simulation Lab (Credits : 1)
+## ES204 Basic Simulation Lab (Credit Units: 01)
 
 ---
 
-## FREN144 French through Communicative Approach (Credits : 4)
+## FREN144 French through Communicative Approach (Credit Units: 04)
 
 ---
 
-## IT201 Java Programming (Credits : 4)
+## IT201 Java Programming (Credit Units: 04)
 
 ---
 
-## MATH242 Applied Mathematics (Credits : 4)
+## MATH242 Applied Mathematics (Credit Units: 04)
 
 ---
 
-## SW102 Human Values and Community Outreach (Credits : 2)
+## SW102 Human Values and Community Outreach (Credit Units: 02)
 
 ---
