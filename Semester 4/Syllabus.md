@@ -260,9 +260,7 @@
 - Recursive and recursively enumerable language 
 - Unrestricted grammars 
 - Context Sensitive Language 
-- Linear Bounded Automata (LBA).
-
-
+- Linear Bounded Automata (LBA)
 	
 #### Module 4: Un-decidability (15%)
 - Turing machine halting problem
@@ -601,8 +599,12 @@
 - Fitting of Straight lines
 - Fitting of second degree parabola
 
----
-
-## SW102 Human Values and Community Outreach (Credit Units: 02)
+#### Text & References:
+- Jain, Iyengar and Jain, “Numerical Methods for Scientific and Engineering Computations”, New Age Int.
+- S C Gupta and V K Kapoor, "Fundamentals of Mathematical Statistics", Sultan Chand & Sons.
+- Grewal B S, “Numerical methods in Engineering and Science”, Khanna Publishers, Delhi.
+- Gerald & Whealey, “Applied Numerical Analyses”, AW.
+- Rohatgi, V. K. and Saleh, A. K. Md. E. (2009): An Introduction to Probability and Statistics, 2nd Edn. (Reprint). John Wiley and Sons.
+- Goon A.M., Gupta M.K. and Dasgupta B. (2005): Fundamentals of Statistics, Vol. I, 8th Edn.World Press, Kolkata.
 
 ---
