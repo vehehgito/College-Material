@@ -13,7 +13,7 @@
         3. Rank with plots
    
 2. Perform:
-    1. Performing Matrix Manipulations: 
+    1. Matrix Manipulations: 
         1. Concatenating 
         2. Indexing 
         3. Sorting
@@ -51,3 +51,51 @@
 9. Generating a square wave from the sum of Sine waves of certain amplitude and frequencies.
 
 10. Basic 2D and 3D plots: parametric space curve, polygons with vertices, 3D contour lines and pie and bar charts.
+
+---
+
+## Experiment 1
+### Aim:
+Creating a One and Two-Dimensional Array (Row / Column Vector) (Matrix of given size) then, 
+    Performing Arithmetic Operations:
+    1. Addition
+    2. Subtraction
+    3. Multiplication
+    4. Exponentiation
+    Performing Matrix operations: 
+    1. Inverse 
+    2. Transpose
+    3. Rank with plots
+
+### Procedure:
+```matlab
+% Creating the vectors
+>> row_vec = [1 2 3 4 5];
+
+>> col_vec = [6; 7; 8; 9; 10];
+
+>> sum_vec = row_vec + col_vec;
+
+>> diff_vec = row_vec - col_vec;
+
+>> mult_vec = row_vec .* col_vec;
+
+>> exponent_vec = row_vec .^ 2;
+
+% Inverse on the sum matrix because it's a square matrix
+>> inv_row = inv(sum_vec);
+
+>> trans_sum = transpose(sum_vec);
+
+>> rank_sum = rank(sum_vec);
+```
+
+### Output:
+#### Sum of the two vectors
+![sum_vec](assets/01%20sum_vec.png)
+
+#### Difference of the two vectors
+![diff_vec](assets/01%20diff_vec.png)
+
+#### Multiplication of the two vectors
+![mult_vec](assets/01%20mult_vec.png)
