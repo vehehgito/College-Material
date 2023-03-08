@@ -82,8 +82,8 @@ Creating a One and Two-Dimensional Array (Row / Column Vector) (Matrix of given 
 
 >> exponent_vec = row_vec .^ 2;
 
-% Inverse on the sum matrix because it's a square matrix
->> inv_row = inv(sum_vec);
+% Following operations on the sum matrix because it's a square matrix
+>> inv_sum = inv(sum_vec);
 
 >> trans_sum = transpose(sum_vec);
 
@@ -99,3 +99,15 @@ Creating a One and Two-Dimensional Array (Row / Column Vector) (Matrix of given 
 
 #### Multiplication of the two vectors
 ![mult_vec](assets/01%20mult_vec.png)
+
+#### Expoentiation of the first vector
+![exponent_vec](assets/01%20exponent_vec.png)
+
+#### Inverse of the sum matrix
+![inv_sum](assets/01%20inv_sum.png)
+
+#### Transpose of the sum matrix
+![trans_sum](assets/01%20trans_sum.png)
+
+#### Rank of the sum matrix
+![rank_sum](assets/01%20rank_sum.png)
