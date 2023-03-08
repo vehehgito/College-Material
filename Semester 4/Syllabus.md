@@ -289,22 +289,317 @@
 ---
 
 ## CSE208 Discrete Mathematical Structures (Credit Units: 03)
+#### Module 1 Set Theory and Mathematical Logic	(25%) 
+- Sets and Subsets 
+- Venn Diagrams 
+- Operations on sets 
+- Laws of set theory 
+- power sets and product of sets 
+- principle of inclusion-exclusion 
+- Proposition 
+- Propositional Calculus- Propositional Variables and Compound propositions 
+- Basic Logical Operations: 
+  - Conjunction 
+  - Disjunction 
+  - Negation 
+  - Conditional 
+  - Biconditional 
+- Compound Statements 
+- Equivalence 
+- Duality
+- Algebra of Statements 
+- Valid and Invalid 
+- Arguments 
+- Tautologies 
+- Contradiction 
+- Contingency	
+
+#### Module 2 Relations, diagraphs and lattices (20%) 
+- Definition and Properties of relation 
+- Type of relation 
+- Diagraph representation of relation 
+- Equivalence and partially ordered relation
+- Transitive closure and Warshall’s algorithm
+- Posets and Hasse diagrams 
+- Introduction to Lattice 
+- Types of Lattice 
+- Distributed and Complemented lattice 
+- Lattice as a Boolean Algebra	
+
+#### Module 3 Boolean Algebra and Applications (20%) 
+- Definition of Boolean Algebra 
+- Laws of Boolean Algebra
+- Basic Theorems
+- Boolean Functions – Disjunctive Normal Form, Conjunctive Normal Form, Duality Principle
+- Boolean Expression – Sum of Products, Product of Sum, Minterm and Maxterm, Applications of Boolean Algebra. 	
+
+#### Module 4 Graphs and Trees (20%) 
+- Graph: 
+  - Finite graph 
+  - Infinite graph 
+  - Connected graph
+  - Disconnected graph 
+  - Null graph 
+  - Subgraph 
+  - Incidence
+  - Adjacency 
+  - Degree 
+  - Directed Graph 
+  - Walk, Path, Circuit, Wheel, Eulerian graph 
+  - Hamiltonian graph 
+  - Planar graph 
+  - Isomorphism of Graph 
+  - Coloring of Graph
+- Tree: 
+  - Properties of Tree 
+  - Weighted tree 
+  - Rooted tree
+  - Binary tree 
+  - Spanning Tree 
+  - Incidence Matrix 
+  - Adjacency Matrix	
+
+#### Module 5 Algebraic Structure (15%)
+- Algebraic structure with one binary operation 
+- Semi-groups 
+- Monoid and groups 
+- Isomorphism 
+- Homomorphism 
+- Cyclic group 
+
+#### Text & References:
+##### Text Book: 
+1. C.L. Liu, Elements of Discrete Mathematics, Tata McGraw Hill, Second Edition 
+2. Kenneth H. Rosen, Discrete Mathematics and its Applications, Mc.Graw Hill 
+3. Seymour Lipschutz and Marc Lars Lipson, “Theory and Problems of DISCRETE MATHEMATICS”, Third Edition by by TMH
+4. Narsingh Deo, Graph Theory With Applications To Engineering And Computer Science
+5. SEYMOUR LIPSCHUTZ SCHAUM'S. OUTLINE OF Theory and Problems of DISCRETE. MATHEMATICS. Third Edition. McGRAW-HILL
+
+##### References:
+1. J.P.Tremblay & R. Manohar, “Discrete Mathematical Structure with Applications to Computer Science” Mc.Graw Hill
+2. Colmun, Busby and Ross, Discrete Mathematical Structure, PHI, 6th Edition, 
 
 ---
 
 ## ES204 Basic Simulation Lab (Credit Units: 01)
+#### Practicals:
+1. Creating a One and Two-Dimensional Array (Row / Column Vector) (Matrix of given size) then, 
+    1. Performing Arithmetic Operations:
+        1. Addition
+        2. Subtraction
+        3. Multiplication
+        4. Exponentiation.  
+    2. Performing Matrix operations: 
+        1. Inverse 
+        2. Transpose
+        3. Rank with plots
+   
+2. Perform:
+    1. Performing Matrix Manipulations: 
+        1. Concatenating 
+        2. Indexing 
+        3. Sorting
+        4. Shifting 
+        5. Reshaping 
+        6. Resizing and 
+        7. Flipping about a vertical axis / horizontal axis; 
+    
+    2. Creating Arrays X & Y of given size (1 x N) and Performing
+        1. Relational Operations - >, <, ==, <=, >=, ~=
+        2. Logical Operations - ~, &, |, XOR
+
+3. Generating a set of Commands on a given Vector (Example: X = [1 8 3 9 0 1]) to
+    1. Add up the values of the elements (Check with sum)
+    2. Compute the Running Sum (Check with sum), where Running Sum for element j = the sum of the elements from 1 to j, inclusive.
+    3. Generating a Random Sequence using rand() / randn() functions and plotting them.
+
+4. Evaluating a given expression and rounding it to the nearest integer value using Round, Floor, Ceil and Fix functions; Also, generating and Plots of
+    1. Trigonometric Functions - sin(t),cos(t), tan(t), sec(t), cosec(t) and cot(t) for a given duration, ‘t’.
+    2. Logarithmic and other Functions – log(A), log10(A), Square root of A, Real nth root of A.
+
+5. Creating a vector X with elements, Xn = (-1)n+1/(2n-1) and ddding up 100 elements of the vector, X; and, plotting the functions, x, x3, ex, exp(x2) over the interval 0 < x < 4 (by choosing appropriate mesh values for x to obtain smooth curves), on a rectangular plot
+
+6. Generating a Sinusoidal signal of a given frequency with Titling, Labelling, Adding Text, Adding Legends, Printing Text in Greek Letters, Plotting as Multiple and Subplot. Time scale the generated signal for different values. E.g. 2X, 4X, 0.25X, 0.0625X.
+
+7. Solving first, second and third order ordinary differential equations using built-in functions and plot.
+
+8. Writing brief scripts starting each script with a request for input (using input) to evaluate the function h(T) using if-else statement, where, 
+    1. h(T) = (T – 10) for 0 < T < 100 
+    2. h(T) = (0.45 T + 900) for T > 100. 
+    - Exercise: Testing the Scripts written using
+        -  T = 5, h = -5 and 
+        - T = 110, h = 949.5
+
+9. Generating a square wave from the sum of Sine waves of certain amplitude and frequencies.
+
+10. Basic 2D and 3D plots: parametric space curve, polygons with vertices, 3D contour lines and pie and bar charts.
+
+#### Text & References:
+##### Text:
+1. Rudra Pratap “ Getting started with Matlab 7”, Oxford publication.
+##### References:
+1. Stephen J. Chapman “MATLAB Programming for Engineers” Cengage Learning
+2. Bruce L Littlefield, Duane C Hanselman “Mastering Matlab 7” Pearson Publication
+3. Agam Kr. Tyagi “MATLAB and Simulink for Engineers” Oxford Publication.
 
 ---
 
 ## FREN144 French through Communicative Approach (Credit Units: 04)
+#### Module 1 Fond memories (20%)
+- Revision of earlier modules.
+- Childhood memories: a text using imparfait.
+- Conjugation of imparfait
+- Exercises based of imparfait.
+- Conjugation and usage of passé composé with verb ‘avoir’
+- Exercises of passe compose with « avoir ».
+- Conjugation and usage of passé composé with verb ‘être’.
+- Exercise based on passe copose with « etre »
+- A memorable celebration - difference between passé composé and imparfait
+#### Module 2 Planning for a vacation (20%)
+- Expressing one self using future tense
+- Conjugation of future tense
+- Exercises based on future tense
+- Future plans: conjugation and usage of simple future tense (exceptional verbs)
+- Describing continuous actions in present
+- Conjugation of present progressive
+- Exercises based on present progressive
+
+#### Module 3 At the hotel (15%)
+- A foreigner in France - using different negative expressions - Exercises based on negative expressions
+- Hotel reservations
+
+#### Module 4 Treasures of France (20%)
+- Usage of COD
+- Placement of COD
+- Exercises based on COD
+- Usage of COI
+- Placement of COI
+- Exercises based on COI
+- Description of famous monuments of France
+
+#### Module 5 Someone special (25%)
+- Changing genders of adjectives
+- Exercises based on genders of adjectives
+- Changing number of adjectives
+- Exercises based on number of adjectives
+- Using more than one adjective with a noun
+- Exercises based on placement of adjectives
+
+#### Text & References:
+##### Text Reading:
+1. A Propos- A1( by Christine Andant, Catherine Metton, Annabelle Nachon, Fabienne Nugue)
+##### References:
+1. Mon livre de français (levels are mentioned in the attached document)
+2. Apprenons la grammaire ensemble
+3. 450 exercices de grammaire
+4. Collins 3-in-1 French Grammar, Vocabulary & Verbs
 
 ---
 
 ## IT201 Java Programming (Credit Units: 04)
+#### Module 1 (20%)
+1. Concepts of OOP, Features of Java,
+2. How Java is different from C++,
+3. Data types
+4. Control statements
+5. Identifiers, arrays, operators
+6. Inheritance: Multilevel hierarchy
+7. Method overriding, abstract classes, final classes, string class
+8. Difference between Applet and Application
+9. Run time polymorphism
+10. Lambda Expression
+
+#### Module 2 (20%)
+1. Defining, implementing, applying packages and interfaces
+2. Importing packages
+3. Fundamentals, types, uncaught exceptions
+4. Multiple catch clauses
+5. Java’s built-in exception
+
+#### Module 3 (20%)
+1. Creating, implementing and extending thread,
+2. Thread priorities,
+3. Synchronization suspending, resuming and stopping threads,
+4. Constructors, various types of string operations
+5. I/O using java.io package
+6. Exploring various packages of Java: java.lang, java.util, java.util.regex etc
+
+#### Module 4 (20%)
+1. Event handling Mechanism
+2. Event Model
+3. Event Classes
+4. Sources of Events
+5. Event Listener Interfaces
+6. AWT: Working with Windows
+7. AWT Controls
+8. Layout Managers
+
+#### Module 5 (20%)
+1. Java Annotations and its types
+2. Annotations Library Create custom annotations
+3. Maven, Repositories, Plugin, Goal & Build lifecycle
+4. GAV – Maven co-ordinates
+5. Creating a pom.xml and Installing a core java application, Project Object Model
+
+#### Practicals:
+1. Java programs using classes & objects and various control constructs such as loops etc, and data structures such as arrays, structures and functions
+
+2. Java programs for creating AWT applications for display of images and texts.
+
+3. Java programs related to Interfaces & Packages.
+
+4. Input/output and random files programs in Java.
+
+5. Java programs using Event driven concepts.
+
+6. Java programs related to Graphical User Interface
+
+7. Java Programs related to multithreading
+
+8. Creating a pom.xml and core java application using Maven.
+
+
+#### Text & References:
+1. JAVA The Complete Reference by PATRICK NAUGHTON & HERBERT SCHILD, TMH.
+2. Introduction to JAVA Programming a primar, Balaguruswamy.
+3. K. Arnold and J. Gosling, “The JAVA programming language”, Pearson Education.
+4. Timothy Budd, “Understanding Object-oriented programming with Java”, Pearson Education
 
 ---
 
 ## MATH242 Applied Mathematics (Credit Units: 04)
+#### Module I: Iterative Techniques and Interpolation	Weightage (40%)
+- Bisection Method 
+- Method of False Position
+- Newton-Raphson method
+- Jacobi iteration method 
+- Gauss Seidal method     
+- Finite Differences 
+- Difference tables
+- Polynomial Interpolation:  Newton’s forward and backward formula 
+- Central Difference Formulae: Gauss forward and backward formula  
+- Interpolation with unequal intervals: Lagrange’s Interpolation 
+- Newton divided difference formula
+
+#### Module II: Numerical Differentiation and Integration (30%)	
+- Introduction
+-  Numerical differentiation 
+- Numerical Integration :  Trapezoidal rule, Simpson’s 1/3 and 3/8 rules 
+- Solution of differential equations: Euler’s Method 
+- Runga-Kutta 4th Order Method 	
+
+#### Module III: Probability and Probability Distributions (15%)
+- Overview of Probability
+- Introduction  and expected value of  Random variable (discrete and continuous), 
+- Variance of Random Variable
+- Probability Distribution: Binomial, Poisson, Normal 	
+
+#### Module IV:  Dispersion, Curve fitting and Principle of least square (15%)
+- Moments about a point, mean and origin
+- Skewness, Kurtosis  Pearson’s β and γ – coefficients
+- Curve Fitting using Method of Least Squares
+- Fitting of Straight lines
+- Fitting of second degree parabola
 
 ---
 
