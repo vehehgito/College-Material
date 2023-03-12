@@ -168,10 +168,10 @@ Creating a One and Two-Dimensional Array (Row / Column Vector) (Matrix of given 
 >> resized_mat = imresize(A, 2);
 
 % Flip A vertically
->> B = flipud(A) 
+>> vert_flip = flipud(A);
 
 % Flip A horizontally
->> C = fliplr(A) % Flip A horizontally
+>> horz_flip = fliplr(A);
 
 
 ```
