@@ -124,7 +124,7 @@ Creating a One and Two-Dimensional Array (Row / Column Vector) (Matrix of given 
         6. Resizing and 
         7. Flipping about a vertical axis / horizontal axis; 
     
-    2. Creating Arrays X & Y of given size (1 x N) and Performing
+    2. Creating Arrays X & Y of given size (1 x N) and performing
         1. Relational Operations - >, <, ==, <=, >=, ~=
         2. Logical Operations - ~, &, |, XOR
 
@@ -173,7 +173,45 @@ Creating a One and Two-Dimensional Array (Row / Column Vector) (Matrix of given 
 % Flip A horizontally
 >> horz_flip = fliplr(A);
 
+>> N = 5;
+>> X = rand(1, N);
+>> Y = rand(1, N);
+
+% Relational Operations
+>> C = X > Y;
+>> D = X < Y;
+>> E = X == Y;
+>> F = X <= Y;
+>> G = X >= Y;
+>> H = X ~= Y;
+
+% Logical Operations
+>> I = ~(X > Y);
+>> J = (X < Y) & (X >= 0.5);
+>> K = (X <= 0.5) | (Y >= 0.5);
+>> L = xor(X > 0.5, Y > 0.5);
 
 ```
 
 ### Output:
+#### Horizontal Concatenation of A and B
+![horzcat_AB](assets/02%20horzcat_AB.png)
+
+#### Vertical Concatenation of A and B
+![vertcat_AB](assets/02%20vertcat_AB.png)
+
+#### Circular Shifting
+![circ_shift](assets/02%20circ_shift.png)
+
+#### Reshaping the matrix
+![reshape_mat](assets/02%20reshape_mat.png)
+
+#### Resizing the matrix
+![resized_mat](assets/02%20resized_mat.png)
+
+#### Flipping the matrix vertically
+![vert_flip](assets/02%20vert_flip.png)
+
+#### Flipping the matrix horizontally
+![horz_flip](assets/02%20horz_flip.png)
+
