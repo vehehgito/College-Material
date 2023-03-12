@@ -111,3 +111,69 @@ Creating a One and Two-Dimensional Array (Row / Column Vector) (Matrix of given 
 
 #### Rank of the sum matrix
 ![rank_sum](assets/01%20rank_sum.png)
+
+## Experiment 2
+### Aim:
+2. Perform:
+    1. Matrix Manipulations: 
+        1. Concatenating 
+        2. Indexing 
+        3. Sorting
+        4. Shifting 
+        5. Reshaping 
+        6. Resizing and 
+        7. Flipping about a vertical axis / horizontal axis; 
+    
+    2. Creating Arrays X & Y of given size (1 x N) and Performing
+        1. Relational Operations - >, <, ==, <=, >=, ~=
+        2. Logical Operations - ~, &, |, XOR
+
+### Procedure:
+```matlab
+>> A = [1 2 3; 4 5 6];
+
+>> B = [7 8 9; 10 11 12];
+
+% Concatenating horizontally
+>> horzcat_AB = horzcat(A,B);
+
+% Concatenating vertically
+>> vertcat_AB = vertcat(A,B);
+
+% Linear indexing
+>> l_index = A(4);
+
+% All elements of the second row
+>> sec_row = A(2,:);
+
+% Subscript indexing
+>> s_index = A(2,3);
+
+% Logical indexing
+>> logic_index = A(A>5);
+
+% Generating a random matrix
+>> rand_mat = rand(3,3);
+
+% Sorting the matrix
+>> sort_mat = sort(rand_mat);
+
+% Circular shifting
+>> circ_shift = circshift(A, 1);
+
+% Reshaping the matrix
+>> reshape_mat = reshape(A, 1, 6);
+
+% Double the size of A using nearest-neighbor interpolation
+>> resized_mat = imresize(A, 2);
+
+% Flip A vertically
+>> B = flipud(A) 
+
+% Flip A horizontally
+>> C = fliplr(A) % Flip A horizontally
+
+
+```
+
+### Output:
